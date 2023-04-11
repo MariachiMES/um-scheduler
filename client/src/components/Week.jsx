@@ -7,7 +7,7 @@ const weekdays = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 
 export default function Week() {
   return (
-    <div style= {{display: 'flex'}}>{weekdays.map((day)=> (
+    <div className = "m-3" style= {{display: 'flex'}}>{weekdays.map((day)=> (
     <Card style={{ width: '18rem', marginTop: '20px', marginLeft: '5px'} }>
       <Card.Img variant="top" src="" />
       <Card.Body>

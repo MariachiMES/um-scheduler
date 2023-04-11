@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <script src="https://kit.fontawesome.com/cd8c8fb565.js" crossorigin="anonymous"></script>
     <App />
   </React.StrictMode>
 );

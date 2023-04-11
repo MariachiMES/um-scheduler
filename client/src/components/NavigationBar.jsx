@@ -18,26 +18,26 @@ export default function NavigationBar() {
     
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Streamline</Navbar.Brand>
+        <Navbar.Brand href="#home">Inventory</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Clock In</Nav.Link>
-            <Nav.Link href="#pricing">Week View</Nav.Link>
+            <Nav.Link href="#features">Add New Item</Nav.Link>
+            <Nav.Link href="#pricing">View Inventory</Nav.Link>
             <NavDropdown title="Views" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Utilization</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Sex</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Profile
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Sex</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Whoa
+                What
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Account</Nav.Link>
+            <Nav.Link href="#deets">Time</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               {time.toLocaleTimeString()}
             </Nav.Link>
